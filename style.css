@@ -1,0 +1,340 @@
+.NavBar {
+    margin: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid rgb(222, 223, 224);
+}
+
+.iconBar {
+    color: #928e8e;
+}
+
+hr {
+    height: 1px;
+    width: 195px
+}
+
+#openNav {
+    font-size: 20px;
+    font-weight: 700;
+    color: #55c9ff;
+}
+
+.tituloSideHide {
+    font-size: 20px;
+    font-weight: 700;
+    color: #55c9ff;
+    margin-left: 5px;
+}
+
+.tituloSideHide span {
+    margin-right: 7px;
+}
+
+.sideBarDiv1 a {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.linkSideBar button {
+    border-style: none;
+    border: none;
+}
+
+.linkSideBar {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.linkSideBar span {
+    margin-right: 10px;
+}
+
+.listSide {
+    font-size: 13px;
+    list-style: none;
+    margin-left: -25px;
+}
+
+.listSide li {
+    margin-bottom: 5px;
+}
+
+.photosSide {
+    width: 24px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.tituloSide {
+    margin-left: 10%;
+    height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+
+.barraDePesquisa {
+    border-radius: 5px;
+    height: 40px;
+    width: 79%;
+    padding: 10px;
+    font-family: Arial, 'Font Awesome 5 Free';
+    background-color: #ececed;
+}
+
+.profileIcon {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.Container {
+    margin-left: 150px;
+}
+
+.profileHeader {
+    display: flex;
+    max-width: 780px;
+    margin-top: 20px;
+    padding: 64px;
+    border: 1px solid rgb(222, 223, 224);
+}
+
+.profileFoto {
+    border-radius: 50%;
+}
+
+.divHeader1 {
+    align-self: center;
+    margin-right: 50px;
+}
+
+.divHeader2 {
+    text-align: start;
+}
+
+.NomeHeader {
+    width: 137px;
+    height: 28px;
+    color: #000000bf;
+    font-size: 25px;
+    font-family: 'ProximaNova-Extrabld';
+    font-weight: 800;
+    letter-spacing: -0.8px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+.cursoHeader {
+    margin-top: -12px;
+    text-align: start;
+}
+
+.resumeHeader {
+    text-align: justify;
+}
+
+.destaques {
+    display: flex;
+    width: 115px;
+    justify-content: space-around;
+}
+
+.destaquesIcon {
+    background-color: #d8d8d8;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.profileFooter {
+    display: flex;
+    justify-content: space-between
+}
+
+.botao {
+    color: #ececed;
+    width: 113px;
+    height: 32px;
+    background: rgb(77, 146, 237);
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.botaoHeader {
+    font-weight: 600;
+    width: 125px;
+    font-size: 15px;
+}
+
+.abas {
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 780px;
+    height: 48px;
+    border: 1px solid rgb(222, 223, 224);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.botaoCinza {
+    height: 32px;
+    border: 1px solid rgb(222, 223, 224);
+    border-radius: 4px;
+    border: 1px;
+}
+
+.abas a {
+    height: 45px;
+    float: left;
+    display: block;
+    color: #928e8e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.abas a:hover {
+    border-bottom: 2px solid #4d92ed;
+}
+
+.abas a.ativo {
+    color: black;
+    position: relative;
+    border-bottom: 2px solid #4d92ed;
+}
+
+.abas a:first-child {
+    margin-left: 85px;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.maindHeader {
+    height: 92px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(222, 223, 224);
+}
+
+.divMainHeader1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.divMainHeader2 {
+    margin-left: 15px;
+}
+
+.divMainHeader2 a {
+    text-decoration: none;
+    color: rgb(25, 115, 232)
+}
+
+.divMainHeader2 a::after {
+    text-decoration: none;
+    color: rgb(25, 115, 232)
+}
+
+.divMainHeader2 p {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: -15px;
+}
+
+.divMainHeader3 {
+    width: 400px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.divMainHeader3:last-child{
+    margin-right: 50px;
+}
+
+.grupoBtn button {
+    height: 32px;
+    cursor: pointer;
+    float: left;
+}
+
+.divMainHeader3 button {}
+
+.sumarioAside {
+    border-left: 1px solid rgb(25, 115, 232);
+    top: 40px;
+    position: relative;
+    float: right;
+}
+
+.sumarioAside p {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    max-width: 150px;
+    margin-right: 150px;
+}
+
+.sumarioAside p:nth-child(8) {
+    margin-top: 50px;
+}
+
+.sumarioAside p:nth-child(3) {
+    color: rgb(25, 115, 232)
+}
+
+section p {
+    font-size: 17px;
+    margin-left: 10px;
+    max-width: 780px;
+    text-align: start;
+}
+
+.title1 {
+    padding-top: 50px;
+}
+
+section h2 {
+    margin-left: 12px;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    font-weight: bold;
+    height: 24px;
+}
+
+.sumario {
+    margin-left: -13px;
+    padding: 50px;
+}
+.sumario a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: rgb(25, 115, 232)
+}
+ol {
+    margin-left: 13px;
+}
+
+.lista p{
+    margin-left: 5px;
+}
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

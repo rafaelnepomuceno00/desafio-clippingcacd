@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Kderno</title>
+</head>
+
+<body>
+
+  <!-- Menu lateral -->
+  <nav>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display: none" id="mySidebar">
+      <button class="w3-bar-item w3-button tituloSideHide" onclick="fechar()">
+        <span class="iconBar"> &#9776;</span> Kderno
+      </button>
+
+      <!-- Contéudo do menu lateral -->
+      <div class="sideBarDiv1">
+        <button class="w3-button linkSideBar"> <span class="material-icons">
+            home
+          </span> Home </button> 
+          <button class=" w3-button linkSideBar"> <span class="material-icons">
+            book </span> Kderno </button> 
+                <button class="w3-button linkSideBar"> <span class="material-icons">
+              grade </span> Favoritos</button> 
+        
+      </div>
+      <hr>
+      <!-- Conteudo visto recentemente -->
+      <div class="sideBarDiv2">
+        <h3 class="tituloSide">Vistos recentemente</h2>
+          <div class="vistosRecent">
+            <ul class="listSide">
+              <img src="">
+              <li><img class="photosSide" src="https://randomuser.me/api/portraits/women/67.jpg"> Tratado de fronteira
+              </li>
+              <li><img class="photosSide" src="https://randomuser.me/api/portraits/women/23.jpg"> Microeconomia I</li>
+              <li><img class="photosSide" src="https://randomuser.me/api/portraits/men/4.jpg"> Exercise: Syntax, Variat…
+              </li>
+              <li><img class="photosSide" src="https://randomuser.me/api/portraits/women/47.jpg"> Melhor bibliografia
+                CA…</li>
+              <li><img class="photosSide" src="https://randomuser.me/api/portraits/women/18.jpg"> Melhor bibliografia
+                CA…</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Conteudo referente ao cabeçalho da página -->
+  <div id="main">
+    <div class="NavBar">
+      <button id="openNav" class="w3-button " onclick="abrir()">
+        <span class="iconBar"> &#9776;</span> Kderno
+      </button>
+      <input class="barraDePesquisa" type="text" placeholder="&#xf002; Pesquisar" />
+      <img class="profileIcon" src="https://randomuser.me/api/portraits/men/1.jpg" alt="iconimg" />
+      <button class="w3-button">&#8942;</button>
+    </div>
+
+    <!-- container principal da aplicação -->
+    <div class="Container">
+
+      <!-- section referente ao conteúdo do cabeçalho -->
+      <section>
+        <div class="profileHeader">
+          <div class="divHeader1"><img class='profileFoto' src="https://randomuser.me/api/portraits/men/1.jpg"
+              alt="perfil"></div>
+          <div class="divHeader2">
+            <h1 class="NomeHeader">Rafael Costa</h1>
+            <p class="cursoHeader">Estudante em UFMG</p>
+            <p class="resumeHeader">Survived PhD in Computational Electromagnetics, while working as a researcher,
+              applied 20 years ago what will be called now Machine Learning to solve ill-posed inverse problems in NDT,
+              worked for long time in Software Development, even for a while as a Project Manager.</p>
+            <div class="profileFooter">
+              <div class="destaques">
+                <div class="destaquesIcon"></div>
+                <div class="destaquesIcon"></div>
+                <div class="destaquesIcon"></div>
+              </div>
+              <button class="botao botaoHeader"> <span class="material-icons">
+                  create
+                </span> Editar perfil</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="abas">
+        <a class="ativo" href="#">Perfil</a>
+        <a class='desativado' href="#">Conta</a>
+        <a class='desativado' href="#">Meus Kdernos</a>
+        <a class='desativado' href="#">Favoritos</a>
+      </div>
+      </section>
+      <main>
+        <div class="maindHeader">
+          <div class="divMainHeader1">
+
+            <img class='profileIcon' src="https://randomuser.me/api/portraits/men/1.jpg" alt="perfil">
+            <div class="divMainHeader2">
+              <h3>Rafael Costa</h3>
+              <p>Kderno de perfil de <a href="#">Rafael Costa </a> · 49 visualizações · 2d atrás
+              </p>
+            </div>
+          </div>
+          <div class="divMainHeader3">
+            <div class="btnCinza grupoBtn">
+              <button><span class="material-icons">
+                  keyboard_arrow_up
+                </span></button>
+              <button>45</button>
+            </div>
+            <button class="btnCinza"><span class="material-icons">
+                group
+              </span> Compartilhar</button>
+            <button class="botao"><span class="material-icons">
+                create
+              </span>Editar</button>
+          </div>
+        </div>
+        <div class="mainBody">
+          <aside class="sumarioAside">
+            <div class="linhaVertical"></div>
+            <p>
+              Sumário
+            </p>
+            <p>Introdução</p>
+            <p>A herança da colônia</p>
+            <p>Diplomacia imperial</p>
+            <p>A obra republicana do Barão Do Rio Branco
+            </p>
+            <p>
+              Próximos passos
+            </p>
+            <p>Anotações</p>
+            <p >Comentários </p>
+          </aside>
+          <section>
+            <h2 class="title1">Sumário</h2>
+            <ol class="sumario">
+              <li> <a href="#">Introdução;</a></li>
+              <li> <a href="#">A herança da colônia;</a></li>
+              <li> <a href="#">A diplomacia Imperial;</a></li>
+              <li> <a href="#">A obra republicana do Barão do Rio Branco.</a></li>
+            </ol>
+          </section>
+          <section>
+            <h2>Introdução</h2>
+            <article>
+              <p>Este é um resumo sobre as Fronteiras do Brasil.</p>
+
+              <p> O Clipping também decidiu produzir esse material pois se trata de um dos conteúdos mais cobrados dos
+                candidatos tanto na Prova Objetiva quanto na prova de Terceira Fase do CACD. Trata-se de um conteúdo
+                cheio de detalhes, datas e tratados diferentes, mas é incontornável para qualquer candidato ao CACD.
+               
+              </p>
+              <p> É fundamental que o candidato ao CACD saiba tudo sobre as fronteiras, e esse resumo de última hora, bem
+                sintético, será especial para isso.
+                
+              </p>
+              <p>Você encontrará neste resumo, uma síntese dos 3 capítulos da obra que são relevantes para o CACD:
+              </p>
+
+              <ol class="lista">
+                <li><p>A herança da colônia; </p></li>
+                <li><p>A diplomacia Imperial;</p></li>
+                <li><p>A obra republicana do Barão do Rio Branco.</p></li>
+              </ol>
+              <p>
+                Ao final da leitura desse resumo, você estará 100% com os assuntos cobrados no CACD a respeito dos
+                tratados que formaram as fronteiras do Brasil.
+              </p>
+
+              <p>Este tópico deve ser estudado após você ter estudado o tópico Período colonial do Edital.</p>
+
+              <p>Marque o seu grau de familiariedade com o conteúdo que precede o estudo deste caderno.</p>
+            </article>
+          </section>
+
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
